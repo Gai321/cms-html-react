@@ -1,0 +1,70 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+.menu{
+
+  align-content: right;
+  background: cornflowerblue;
+ 
+ }
+ .row{
+  display: contents;
+  align-content:start;
+  width:100%;
+ }
+
+ .column{
+  float: left;
+  justify-content: right;
+  flex-wrap: nowrap;
+ }
+ @media screen and (max-width: 500px) {
+  .column {
+      width: 100%;
+  }
+  .navbar-nav,.menu{
+    width:100%;
+  }
+}
+
+ .navbar-nav{
+  display: flex;
+    list-style: none;
+    padding: 10 20px;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 350px;
+ }
+ .nav-item{
+  list-style: none;
+  font-display: white;
+  padding: 0 50px;
+  position: relative;
+  align-items: left;
+  justify-content:space-between;
+  padding: 0 50px;
+
+ }
+  .image{
+  background-image: url(./ccamp.jpg);
+}
+
+
+  h1,h2,h3,h4{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  h2{
+    color:darkblue;
+  }
+ 
+  .Footer {
+    background-color:cornflowerblue;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
