@@ -8,36 +8,44 @@
 .menu{
 
   align-content: right;
-  background: cornflowerblue;
+  color:aliceblue;
+  text-decoration: none;
+  background: rgb(240, 217, 69);
+  padding:10px;
  
+ }
+ .navbarlogo{
+  background:rgb(82, 82, 86) ;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
  }
  .row{
   display: contents;
-  align-content:start;
-  width:100%;
- }
 
+ }
+.Colllogo{
+width:8%
+
+}
  .column{
+  text-align: left;
   float: left;
   justify-content: right;
   flex-wrap: nowrap;
+  font-size: larger;
  }
- @media screen and (max-width: 500px) {
-  .column {
-      width: 100%;
-  }
-  .navbar-nav,.menu{
-    width:100%;
-  }
-}
 
+.collname{
+  text-align: left;
+}
  .navbar-nav{
-  display: flex;
+    display: flex;
     list-style: none;
-    padding: 10 20px;
-    align-items: center;
+    align-items: left;
     justify-content:space-between;
-    padding: 0 350px;
+
  }
  .nav-item{
   list-style: none;
@@ -56,15 +64,25 @@
 
   h1,h2,h3,h4{
     text-align: center;
+    color:aliceblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   h2{
-    color:darkblue;
+    color:rgb(228, 228, 235);
   }
  
   .Footer {
-    background-color:cornflowerblue;
+    background: rgb(240, 217, 69);
     padding: 10px;
     text-align: center;
     color: white;
+  }
+
+  @media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+    .navbar-nav,.menu{
+      width:100%;
+    }
   }
